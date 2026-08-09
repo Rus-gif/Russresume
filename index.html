@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Russell Chan Nunag — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="editor">
+
+  <!-- Sticky window chrome: stays visible on scroll, doubles as "back to top" -->
+  <div class="chrome-sticky">
+    <div class="titlebar">
+      <a href="#top" class="dots" aria-label="Back to top">
+        <span></span><span></span><span></span>
+      </a>
+      <a href="#top" class="titlebar-label" aria-label="Back to top">russell-nunag — portfolio — VS Code</a>
+      <a href="#top" class="back-to-top" aria-label="Back to top">
+        <span class="back-to-top-arrow">↑</span> top
+      </a>
+    </div>
+
+    <!-- Tab bar / nav -->
+    <nav class="tabs" aria-label="Section navigation">
+      <a href="#about" class="tab active" data-target="about"><span class="tab-icon">◆</span>about.md</a>
+      <a href="#education" class="tab" data-target="education"><span class="tab-icon">◆</span>education.json</a>
+      <a href="#skills" class="tab" data-target="skills"><span class="tab-icon">◆</span>skills.js</a>
+      <a href="#references" class="tab" data-target="references"><span class="tab-icon">◆</span>references.txt</a>
+      <a href="#contact" class="tab" data-target="contact"><span class="tab-icon">◆</span>contact.sh</a>
+    </nav>
+  </div>
+
+  <div class="workspace">
+
+    <!-- Line-number gutter, decorative -->
+    <div class="gutter" aria-hidden="true"></div>
+
+    <main class="pane">
+
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="hero-grid">
+          <div class="hero-photo-wrap">
+            <div class="photo-frame">
+              <img src="RUSS.jpg" alt="Russell C. Nunag" class="hero-photo">
+            </div>
+            <div class="photo-caption">// profile.jpg</div>
+          </div>
+
+          <div class="hero-copy">
+            <p class="code-line"><span class="kw">const</span> <span class="var">student</span> <span class="op">=</span> <span class="brace">{</span></p>
+            <h1 class="hero-name"><span class="prop">name</span><span class="op">:</span> <span class="str">"Russell C Nunag"</span><span class="op">,</span></h1>
+            <p class="code-line indent-1"><span class="prop">role</span><span class="op">:</span> <span class="str">"BSIT Student"</span><span class="op">,</span></p>
+            <p class="code-line indent-1"><span class="prop">school</span><span class="op">:</span> <span class="str">"Mabalacat City College"</span><span class="op">,</span></p>
+            <p class="code-line indent-1"><span class="prop">location</span><span class="op">:</span> <span class="str">"1370 Cresenciano Street, Green Meadow Phase 2, Mabiga, Mabalacat City, Pampanga"</span><span class="op">,</span></p>
+            <p class="code-line indent-1"><span class="prop">status</span><span class="op">:</span> <span class="str">"open to on-the-job training &amp; entry-level roles"</span></p>
+            <p class="code-line"><span class="brace">}</span><span class="op">;</span></p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-ghost">$ scroll contact.sh</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="filecard" id="about">
+        <div class="filecard-header">
+          <span class="filecard-icon">M↓</span> about.md
+        </div>
+        <div class="filecard-body prose">
+          <h2 class="md-heading"># About Me</h2>
+          <p>
+            Motivated and adaptable, with strong communication skills, a proven work ethic, and
+            the ability to quickly learn new tasks. Thrives in team environments while
+            contributing to shared goals and delivering high-quality results.
+          </p>
+
+          <h3 class="md-heading">## Beyond the Code</h3>
+          <div class="kv-grid">
+            <div class="kv"><span class="kv-key">hobby</span><span class="kv-val">Gaming, work, sleep, cooking</span></div>
+            <div class="kv"><span class="kv-key">dream</span><span class="kv-val">Provide for family &amp; live better</span></div>
+          </div>
+          <blockquote class="motto">
+            <span class="motto-mark">&gt;</span> The purpose of life is a life of purpose.
+          </blockquote>
+
+          <h3 class="md-heading">## Personal Info</h3>
+          <div class="kv-grid">
+            <div class="kv"><span class="kv-key">age</span><span class="kv-val">20</span></div>
+            <div class="kv"><span class="kv-key">sex</span><span class="kv-val">Male</span></div>
+            <div class="kv"><span class="kv-key">civilStatus</span><span class="kv-val">Single</span></div>
+            <div class="kv"><span class="kv-key">height</span><span class="kv-val">173 cm</span></div>
+            <div class="kv"><span class="kv-key">weight</span><span class="kv-val">65 kg</span></div>
+            <div class="kv"><span class="kv-key">citizenship</span><span class="kv-val">Filipino</span></div>
+            <div class="kv"><span class="kv-key">languages</span><span class="kv-val">Tagalog, English</span></div>
+            <div class="kv"><span class="kv-key">birthplace</span><span class="kv-val">Mabalacat Emergency Hospital</span></div>
+          </div>
+
+          <h3 class="md-heading">## Emergency Contact</h3>
+          <p class="emergency">
+            <strong>Mr. Ronell L. Nunag</strong><br>
+            0933-823-3989<br>
+            1370 Cresenciano Street, Green Meadow Phase 2, Mabiga, Mabalacat City, Pampanga
+          </p>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="filecard" id="education">
+        <div class="filecard-header">
+          <span class="filecard-icon">{ }</span> education.json
+        </div>
+        <div class="filecard-body">
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-marker current">current</div>
+              <div class="timeline-content">
+                <p class="timeline-years">2024 – Present</p>
+                <h4>Bachelor of Science in Information Technology</h4>
+                <p class="timeline-school">Mabalacat City College</p>
+                <p class="timeline-loc">Rizal, Barangay Dolores, Mabalacat City, Pampanga</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker">03</div>
+              <div class="timeline-content">
+                <p class="timeline-years">2022 – 2024</p>
+                <h4>Senior High School — ICT Strand</h4>
+                <p class="timeline-school">Children of Fatima School Inc.</p>
+                <p class="timeline-loc">Mabiga, Mabalacat City, Pampanga</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker">02</div>
+              <div class="timeline-content">
+                <p class="timeline-years">2018 – 2022</p>
+                <h4>Junior High School</h4>
+                <p class="timeline-school">Doña Asuncion Lee Integrated School</p>
+                <p class="timeline-loc">Xevera, Tabun, Mabalacat City, Pampanga</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker">01</div>
+              <div class="timeline-content">
+                <p class="timeline-years">2012 – 2018</p>
+                <h4>Elementary School</h4>
+                <p class="timeline-school">Dau Elementary School</p>
+                <p class="timeline-loc">Dau, Mabalacat City, Pampanga</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="filecard" id="skills">
+        <div class="filecard-header">
+          <span class="filecard-icon">JS</span> skills.js
+        </div>
+        <div class="filecard-body">
+          <p class="code-line"><span class="kw">const</span> <span class="var">skills</span> <span class="op">=</span> <span class="brace">[</span></p>
+          <div class="skill-tags">
+            <span class="skill-tag">"Strong communication"</span>
+            <span class="skill-tag">"Dedicated &amp; hardworking"</span>
+            <span class="skill-tag">"Fast learner / adaptable"</span>
+            <span class="skill-tag">"Team collaboration"</span>
+          </div>
+          <p class="code-line"><span class="brace">];</span></p>
+        </div>
+      </section>
+
+      <!-- REFERENCES -->
+      <section class="filecard" id="references">
+        <div class="filecard-header">
+          <span class="filecard-icon">TXT</span> references.txt
+        </div>
+        <div class="filecard-body">
+          <div class="ref-grid">
+            <div class="ref-card">
+              <p class="ref-name">Mr. Junelle Delos Santos</p>
+              <p class="ref-role">Student</p>
+              <p class="ref-loc">Atlu-Bola, Mabalacat City, Pampanga</p>
+              <p class="ref-phone">0921-585-1938</p>
+            </div>
+            <div class="ref-card">
+              <p class="ref-name">Mr. Christian P. Soriano</p>
+              <p class="ref-role">Friend</p>
+              <p class="ref-loc">Xevera, Tabun, Mabalacat City, Pampanga</p>
+              <p class="ref-phone">0970-474-6166</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="filecard terminal-card" id="contact">
+        <div class="filecard-header">
+          <span class="filecard-icon">&gt;_</span> contact.sh
+        </div>
+        <div class="filecard-body terminal-body">
+          <p class="term-line"><span class="prompt">$</span> echo $EMAIL</p>
+          <p class="term-out">r.nunag50423@mcc.edu.ph</p>
+          <p class="term-line"><span class="prompt">$</span> echo $PHONE</p>
+          <p class="term-out">0991-614-5777</p>
+          <p class="term-line"><span class="prompt">$</span> cat address.txt</p>
+          <p class="term-out">1370 Cresenciano Street, Green Meadow Phase 2, Mabiga, Mabalacat, Pampanga</p>
+          <p class="term-line"><span class="prompt">$</span> <span class="cursor">▌</span></p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© Russell C. Nunag. All rights reserved.</p>
+      </footer>
+
+    </main>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
